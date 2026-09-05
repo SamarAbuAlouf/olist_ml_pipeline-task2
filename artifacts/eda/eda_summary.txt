@@ -1,0 +1,24 @@
+EDA Summary
+The EDA was performed on the training dataset only.
+- Numerical, categorical, ID, and date-related features were inspected.
+- Missing values were identified and will be handled during preprocessing.
+- Numerical features were examined using descriptive statistics, distributions, skewness, and outlier analysis.
+- Categorical features were examined using cardinality, frequent categories, and rare-category analysis.
+- Relationships between features and the target `is_late` were analyzed.
+- Purchase date/time features and day-of-week/month patterns were examined.
+- Features based on information available only after delivery were excluded from the selected feature list to reduce leakage risk.
+Selected features:
+- order_purchase_timestamp
+- order_approved_at
+- order_estimated_delivery_date
+- item_count
+- unique_products
+- unique_sellers
+- total_price
+- total_freight
+- avg_item_price
+- payment_count
+- total_payment_value
+- max_installments
+- customer_zip_code_prefix
+- customer_state

@@ -1,0 +1,15 @@
+feature
+order_purchase_timestamp
+order_approved_at
+order_estimated_delivery_date
+item_count
+unique_products
+unique_sellers
+total_price
+total_freight
+avg_item_price
+payment_count
+total_payment_value
+max_installments
+customer_zip_code_prefix
+customer_state

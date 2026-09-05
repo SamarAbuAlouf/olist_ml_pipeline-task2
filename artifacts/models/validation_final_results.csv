@@ -1,0 +1,2 @@
+model,learning_rate,max_iter,max_leaf_nodes,l2_regularization,threshold,accuracy,precision,recall,f1,roc_auc,average_precision
+HistGradientBoosting,0.05,500,63,5.0,0.5499999999999999,0.8738165987146708,0.18642048838594402,0.4049159120310479,0.2553017944535073,0.744278680545049,0.16729421614258272
