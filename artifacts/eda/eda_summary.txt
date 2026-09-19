@@ -22,3 +22,4 @@ Selected features:
 - max_installments
 - customer_zip_code_prefix
 - customer_state
+- seller_state

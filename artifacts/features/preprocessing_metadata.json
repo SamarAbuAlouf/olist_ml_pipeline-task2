@@ -13,7 +13,8 @@
     "total_payment_value",
     "max_installments",
     "customer_zip_code_prefix",
-    "customer_state"
+    "customer_state",
+    "seller_state"
   ],
   "engineered_numeric_features": [
     "item_count",
@@ -34,9 +35,10 @@
     "estimated_delivery_days"
   ],
   "engineered_categorical_features": [
-    "customer_state"
+    "customer_state",
+    "seller_state"
   ],
-  "final_feature_count": 43,
+  "final_feature_count": 65,
   "numeric_imputation": "median",
   "categorical_imputation": "most_frequent",
   "categorical_encoding": "OneHotEncoder(handle_unknown='ignore')",
